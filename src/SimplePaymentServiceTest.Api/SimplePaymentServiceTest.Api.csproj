@@ -1,0 +1,12 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <LangVersion>preview</LangVersion>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\SimplePaymentServiceTests.Infrastructure\SimplePaymentServiceTests.Infrastructure.csproj" />
+  </ItemGroup>
+
+</Project>

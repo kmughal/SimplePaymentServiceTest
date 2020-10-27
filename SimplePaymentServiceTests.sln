@@ -17,6 +17,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SimplePaymentServiceTests.T
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SimplePaymentServiceTests.Types", "src\SimplePaymentServiceTests.Types\SimplePaymentServiceTests.Types.csproj", "{1DC3BD48-9F90-4B71-A7FF-761CBD77DAEA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimplePaymentServiceTest.Api", "src\SimplePaymentServiceTest.Api\SimplePaymentServiceTest.Api.csproj", "{80011157-A783-4DFE-A349-E6D18FB8AA11}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -47,6 +49,10 @@ Global
 		{1DC3BD48-9F90-4B71-A7FF-761CBD77DAEA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1DC3BD48-9F90-4B71-A7FF-761CBD77DAEA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1DC3BD48-9F90-4B71-A7FF-761CBD77DAEA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{80011157-A783-4DFE-A349-E6D18FB8AA11}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{80011157-A783-4DFE-A349-E6D18FB8AA11}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{80011157-A783-4DFE-A349-E6D18FB8AA11}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{80011157-A783-4DFE-A349-E6D18FB8AA11}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -58,6 +64,7 @@ Global
 		{B4C325F7-2556-4EBC-9CD4-411DF546A996} = {FB328F93-0011-4874-9EFE-9DEA2CA85650}
 		{BDC3AD6D-5D2A-4139-A1C7-8F3C29EBF7BF} = {FB328F93-0011-4874-9EFE-9DEA2CA85650}
 		{1DC3BD48-9F90-4B71-A7FF-761CBD77DAEA} = {FB328F93-0011-4874-9EFE-9DEA2CA85650}
+		{80011157-A783-4DFE-A349-E6D18FB8AA11} = {FB328F93-0011-4874-9EFE-9DEA2CA85650}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {0E6BA795-3D76-4431-87E2-548043A782C3}
