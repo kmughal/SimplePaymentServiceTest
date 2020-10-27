@@ -31,8 +31,6 @@ WebHost.CreateDefaultBuilder()
                await c.Response.WriteAsync(data);
 
            });
-
-
             e.MapGet("/currentdate", CurrentDate);
         });
 
@@ -43,7 +41,6 @@ WebHost.CreateDefaultBuilder()
 
 Task CurrentDate(HttpContext c)
 {
-
     c.Response.WriteAsync($"Todays :{DateTime.Now.ToShortDateString()}");
     return null;
 }
