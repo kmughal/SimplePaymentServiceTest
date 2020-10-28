@@ -45,4 +45,4 @@ Task CurrentDate(HttpContext c)
     return null;
 }
 
-
+record Person(string FirstName,string LastName);
